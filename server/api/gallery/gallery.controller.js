@@ -6,8 +6,12 @@ var Gallery = require('./gallery.model');
 // Get list of gallerys
 exports.index = function(req, res) {
   Gallery.find(function (err, gallerys) {
+    var galerias = {
+      "objectos": gallerys,
+      "count": gallerys.length
+    };
     if(err) { return handleError(res, err); }
-    return res.json(200, gallerys);
+    return res.json(200, galerias);
   });
 };
 
