@@ -225,7 +225,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#E0D6D0',
+                    color: '#EDCEA3',
                     weight: 3
                 },
                 editable: true,
@@ -233,7 +233,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#E0D6D0',
+                    color: '#EDCEA3',
                     opacity: 0.8
                 }
             },
@@ -263,7 +263,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#D5AAB0',
                     weight: 3
                 },
                 editable: true,
@@ -271,7 +271,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#D5AAB0',
                     opacity: 0.8
                 }
             },
@@ -309,7 +309,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#6060FB',
                     opacity: 0.8
                 }
             },
@@ -429,7 +429,7 @@ longitude:-77.04363227
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#6060FB',
                     opacity: 0.8
                 }
             },
@@ -493,7 +493,7 @@ longitude:-77.03369737}
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#6060FB',
                     opacity: 0.8
                 }
             },
