@@ -15,9 +15,6 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:    process.env.MONGOLAB_URI ||
-            process.env.MONGOHQ_URL ||
-            process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/opendatamiraflores'
+    uri: 'mongodb://test:test@ds031922.mongolab.com:31922/heroku_app36941976'
   }
 };

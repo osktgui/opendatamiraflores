@@ -6,9 +6,16 @@ angular.module('opendatamirafloresApp', [
   'ngSanitize',
   'btford.socket-io',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'uiGmapgoogle-maps'
 ])
-  .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
+  .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider, uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+        //    key: 'your api key',
+        v: '3.17',
+        libraries: 'weather,geometry,visualization'
+    });
+
     $urlRouterProvider
       .otherwise('/');
 
@@ -28,7 +35,7 @@ angular.module('opendatamirafloresApp', [
       },
 
 
-      
+
 
       // Intercept 401s and redirect you to login
       responseError: function(response) {

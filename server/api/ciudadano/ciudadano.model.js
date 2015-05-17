@@ -8,7 +8,7 @@ var CiudadanoSchema = new Schema({
   	latitud: String,
     longitud: String,
     idCampania: String,
-    numeroCelular: Date
+    numeroCelular: String
 });
 
 module.exports = mongoose.model('Ciudadano', CiudadanoSchema);
