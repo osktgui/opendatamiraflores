@@ -9,6 +9,8 @@ var errors = require('./components/errors');
 module.exports = function(app) {
 
   // Insert routes below
+  app.use('/api/gallerys', require('./api/gallery'));
+  app.use('/api/ciudadanos', require('./api/ciudadano'));
   app.use('/api/campanias', require('./api/campania'));
   app.use('/api/things', require('./api/thing'));
   app.use('/api/users', require('./api/user'));

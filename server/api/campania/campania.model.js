@@ -2,31 +2,18 @@
 
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
+var Ciudadano = require('../ciudadano/ciudadano.model');
 
 var CampaniaSchema = new Schema(
   {
     titulo: String,
-    info: String
-  },
-  {
     imagen: String,
-    info: String
-  },
-  {
     descripcion: String,
-    info: String
-  },
-  {
-    fechainicio: String,
-    info: String
-  },
-  {
-    fechafinal: String,
-    info: String
-  },
-  {
-    meta: String,
-    info: String
+    fechainicio: Date,
+    fechafinal: Date,
+    meta: Number,
+    activo: { type: Boolean, default: true },
+    votos: [Ciudadano]
   }
 );
 

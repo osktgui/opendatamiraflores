@@ -8,6 +8,8 @@ angular.module('opendatamirafloresApp')
 
 
     $http.get('/api/campanias').success(function(campanias) {
+      console.log("*****");
+      console.log(campanias);
       $scope.campanias = campanias;
       socket.syncUpdates('campania', $scope.campanias);
     });

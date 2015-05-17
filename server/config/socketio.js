@@ -18,6 +18,8 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
+  require('../api/gallery/gallery.socket').register(socket);
+  require('../api/ciudadano/ciudadano.socket').register(socket);
   require('../api/campania/campania.socket').register(socket);
   require('../api/thing/thing.socket').register(socket);
 }
