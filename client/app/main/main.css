@@ -30,3 +30,29 @@
 }
 
 .angular-google-map-container { height: 400px; }
+
+body{
+  background: #006ead url("http://zeroagency.com/linkedinredesign/assets/img/header-gradient.jpg") 0 0 repeat;
+  -webkit-background-size: 120px 120px;
+  background-size: 120px 120px;
+}
+
+.content-body{
+  position: relative;
+  display: table;
+  background: #0165a5 url("http://zeroagency.com/linkedinredesign/assets/img/bg-pattern-2x.png") center center repeat;
+  height: 1000px;
+  width: 100%;
+}
+.colorwhite{
+  color: white;
+}
+.colorwhite h1{
+  color: white;
+}
+.text-22{
+  font-size: 18px;
+}
+.text-22 span{
+  font-weight: bold;
+}

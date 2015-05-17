@@ -7,7 +7,7 @@ angular.module('opendatamirafloresApp')
       maps.visualRefresh = true;
     });
 
-    $scope.map = { center: { latitude: -12.113540, longitude: -77.035875 }, zoom: 10 };
+    $scope.map = { center: { latitude: -12.113540, longitude: -77.035875 }, zoom: 14 };
 
 
     $scope.marcas = [];
