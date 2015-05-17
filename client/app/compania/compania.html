@@ -1,0 +1,32 @@
+<div>Campañas</div>
+<br>
+<div>
+  <div ng-repeat="campaniaModel in campanias">
+    <img src="{{campaniaModel.imagen}}" alt="{{campaniaModel.titulo}}">
+    <div>{{companiaModel.titulo}}</div>
+    <div>{{companiaModel.descripcion}}</div>
+    <div>{{companiaModel.fechainicio}}</div>
+    <div>{{companiaModel.fechafinal}}</div>
+    <div>{{companiaModel.meta}}</div>
+  </div>
+</div>
+<br>
+<div>
+  <form action="">
+    <label for="titulo">titulo</label>
+    <input type="text" name="titulo" ng-model="campania.titulo">
+    <label for="imagen">imagen</label>
+    <input type="text" name="imagen" ng-model="campania.imagen">
+    <label for="descripcion">descripción</label>
+    <input type="text" name="descripcion" ng-model="campania.descripcion">
+    <label for="fechainicio">Fecha inicio</label>
+    <input type="text" name="fechainicio" ng-model="campania.fechainicio">
+    <label for="fechafinal">Fecha final</label>
+    <input type="text" name="fechafinal" ng-model="campania.fechafinal">
+    <label for="meta">Meta</label>
+    <input type="text" name="meta" ng-model="campania.meta">
+  </form>
+</div>
+<div>
+  <a ng-click="addCampania();">Guardar Campaña</a>
+</div>
