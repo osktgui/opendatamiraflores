@@ -7,7 +7,7 @@ angular.module('opendatamirafloresApp')
       maps.visualRefresh = true;
     });
 
-    $scope.map = { center: { latitude: -12.113540, longitude: -77.035875 }, zoom: 12 };
+    $scope.map = { center: { latitude: -12.113540, longitude: -77.035875 }, zoom: 10 };
 
 
     $scope.marcas = [];
@@ -15,18 +15,18 @@ angular.module('opendatamirafloresApp')
     $http.get('/api/ciudadanos').success(function(ciudadanos) {
     var marcas = [];
       for(var i = 0; i < ciudadanos.length; i++){
-        
+
         var marca = {
           latitude: ciudadanos[i].latitud,
           longitude: ciudadanos[i].longitud,
           title: 'm' + i,
           id: "mm" + i
         };
-        $scope.marcas.push(marca);      
+        $scope.marcas.push(marca);
       }
 
 
- 
+
 
       socket.syncUpdates('ciudadano', $scope.marcas);
     });

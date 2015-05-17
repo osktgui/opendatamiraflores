@@ -11,6 +11,8 @@ exports.index = function(req, res) {
       "count": gallerys.length
     };
     if(err) { return handleError(res, err); }
+
+    res.header("Content-Type", "application/json; charset=utf-8");
     return res.json(200, galerias);
   });
 };
