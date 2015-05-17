@@ -41,7 +41,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#E0E3AB',
                     weight: 3
                 },
                 editable: true,
@@ -49,7 +49,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#E0E3AB',
                     opacity: 0.8
                 }
             },
@@ -87,7 +87,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#AEBDD7',
                     weight: 3
                 },
                 editable: true,
@@ -95,7 +95,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#AEBDD7',
                     opacity: 0.8
                 }
             },
@@ -129,7 +129,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#EDCEA3',
                     weight: 3
                 },
                 editable: true,
@@ -137,7 +137,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#EDCEA3',
                     opacity: 0.8
                 }
             },
@@ -179,7 +179,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#D5AAB0',
                     weight: 3
                 },
                 editable: true,
@@ -187,7 +187,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#D5AAB0',
                     opacity: 0.8
                 }
             },
@@ -225,7 +225,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#E0D6D0',
                     weight: 3
                 },
                 editable: true,
@@ -233,7 +233,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#E0D6D0',
                     opacity: 0.8
                 }
             },
@@ -355,7 +355,7 @@ angular.module('opendatamirafloresApp')
                     }
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#E0D6D0',
                     weight: 3
                 },
                 editable: true,
@@ -363,7 +363,7 @@ angular.module('opendatamirafloresApp')
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#E0D6D0',
                     opacity: 0.8
                 }
             },
@@ -453,7 +453,7 @@ longitude:-77.0400703},
 longitude:-77.03702331}
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#E0D6D0',
                     weight: 3
                 },
                 editable: true,
@@ -461,7 +461,7 @@ longitude:-77.03702331}
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#E0D6D0',
                     opacity: 0.8
                 }
             },
@@ -513,7 +513,7 @@ longitude:-77.02822566},
 longitude:-77.02691674}
                 ],
                 stroke: {
-                    color: '#6060FB',
+                    color: '#D5AAB0',
                     weight: 3
                 },
                 editable: true,
@@ -521,7 +521,7 @@ longitude:-77.02691674}
                 geodesic: false,
                 visible: true,
                 fill: {
-                    color: '#243208',
+                    color: '#D5AAB0',
                     opacity: 0.8
                 }
             }
